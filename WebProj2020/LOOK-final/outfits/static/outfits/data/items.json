@@ -1,0 +1,33 @@
+[
+        {
+            "userid":"18",
+            "lookid":"1",
+            "img": "../static/outfits/images/o1.png",
+            "imgid": "1"
+            
+        },
+        {
+            "userid":"18",
+            "lookid":"2",
+            "img": "../static/outfits/images/o2.png",
+            "imgid": "2"
+        },
+        {
+            "userid":"18",
+            "lookid":"4",
+            "img": "../static/outfits/images/o4.png",
+            "imgid": "3"
+        },
+        {
+            "userid":"18",
+            "lookid":"5",
+            "img": "../static/outfits/images/o5.png",
+            "imgid": "4"
+        },
+        {
+            "userid":"17",
+            "lookid":"6",
+            "img": "../static/outfits/images/o6.jpg",
+            "imgid": "5"
+        }
+]

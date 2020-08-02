@@ -1,0 +1,176 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Look</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'outfits/css/style.css'%}">
+</head>
+
+<body class="createlook">
+
+	<header>
+		<a href="#" id="menu"></a>
+		<a href="{% url 'home' %}" id="logo"></a>
+		
+		<a href="{% url 'profile' %}" id="profile"></a>
+	</header>
+
+	<div class="wraper">
+		<article id="navBar" class="navbar navbar-expand-sm navbar-light bg-light">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="{% url 'home' %}">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% url 'stylist' %}">Find stylist</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% url 'buildLook' %}" id="selected" >Build look</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% url 'profile' %}">Profile</a>
+				</li>
+				<li class="nav-item">
+					<a id="logout" href="{% url 'logout' %}">Log out</a>
+				</li>
+			</ul>
+		</article>
+
+
+		<form name="myForm" action="#" method="post">
+			<span class="note">my closet</span>
+			<section class="adaptive">
+				<section class="imageBorder">
+					<img src="images/outfit5.jpg" width="371" height="453">
+				</section>
+			</section>
+
+
+			<div class="slider multiple-items">
+				<button id="tops" type="button" class="btn btn-outline-secondary items tops" data-target="#myModal">tops</button>
+				<button type="button" class="btn btn-outline-secondary items pant">pants</button>
+				<button type="button" class="btn btn-outline-secondary items shoes">shoes</button>
+				<button type="button" class="btn btn-outline-secondary items skirts">skirts</button>
+				<button type="button" class="btn btn-outline-secondary items jakets">jakets</button>
+				<button type="button" class="btn btn-outline-secondary items accessories">accessories</button>
+				<button type="button" class="btn btn-outline-secondary items dresses">dresses</button>
+				<button type="button" class="btn btn-outline-secondary items sport">sport</button>
+				<button type="button" class="btn btn-outline-secondary items festive">festive</button>
+			</div>
+
+			<section>
+				<lable for="description"> description:</lable><br>
+				<textarea rows="2" cols="50" name="address" id="description"
+					placeholder="#top, #study, #after korona, #party, #nightlife">#aftercorona #black #work</textarea>
+
+			</section>
+
+			<section>
+				<button type="reset" class="btn btn-outline-secondary send">cancel changes</button>
+				<span>|</span>
+				<button name = "submit" type = "button" class="btn btn-outline-secondary send">save the LOOK</button>
+			</section>
+
+
+		</form>
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="cancel"><button type="button" class="btn btn-default" data-dismiss="modal"></button></div>					<div class="modal-header">
+						<button type="button" class="btn btn-outline-secondary">tops</button>
+						<span>|</span>
+						<button  id = "golfElement" type="button" class="btn btn-outline-secondary">golf</button>
+						<span>|</span>
+						<button  type="button" class="btn btn-outline-secondary ">evening</button>
+						<span>|</span>
+						<button  type="button" class="btn btn-outline-secondary ">butoned</button>
+					</div>
+					<div class="modal-body">
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it1" value="it1">
+							<img id =" imageOptions" src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it2" value="it2">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it3" value="it3">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it4" value="it4">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it5" value="it6">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it7" value="it7">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it8" value="it8">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it3" value="it3">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it4" value="it4">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it5" value="it6">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it7" value="it7">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+						<section>
+							<input class="form-check-input" type="radio" name="exampleRadios" id="it8" value="it8">
+							<img src="{% static 'outfits/images/shirt.png' %}" alt="">
+						</section>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-secondary" id="save">save</button>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+        <nav class="footer">
+            <li><a class="boldicon" href="{% url 'home' %}"></a></li>
+            <li><a href="{% url 'buildLook' %}"></a></li>
+            <li><a class="boldicon" href="{% url 'createLook' %}"></a></li>
+            <li><a class="boldicon" href="{% url 'upload' %}"></a></li>
+            <li><a class="boldicon" href="{% url 'profile' %}"></a></li>
+        </nav>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="{% static 'outfits/js/with_carousel.js'%}"></script>
+</body>
+</html>

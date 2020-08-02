@@ -1,0 +1,1344 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body, nav, main, div, header, footer, article, section, aside, a {
+    display: block;
+} 
+
+.wraper {
+    height: 100%;
+}
+
+
+
+
+/*********** hamburger ******************************/
+
+
+
+/**************************************/
+
+#logout{
+    position: absolute;
+    right: 40px;
+
+}
+
+
+.login form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group{
+    width: 100%;
+}
+
+
+.login form div {
+    display: flex;
+    width: 100%;
+    justify-content:space-between
+}
+
+.login form div input{
+    width: 60%;
+}
+
+.login img{
+    height: 212px;
+    width: 370px;
+    margin-bottom: 15px;
+}
+
+.login main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+/******  Register  ********/
+
+.Register form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.Register form div {
+    display: flex;
+    width: 100%;
+    justify-content:space-between
+}
+
+.Register form div input{
+    width: 60%;
+}
+
+.Register img{
+    height: 212px;
+    width: 370px;
+    margin-bottom: 15px;
+}
+
+.Register main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/******  Register  ********/
+
+
+
+
+
+/******  browse look  ********/
+.Browselook .Browsecontent{
+    width: 100%; 
+    height: 100%;                          
+    margin-top: 10px;
+}
+.Browselook .BrowsecontentImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Browselook .BrowsecontentImg img{
+    width: 192px;
+    height: 240px; 
+    border-radius: 5px;  
+}
+
+
+.heartbutton{
+    position: absolute;
+    left: 15px;
+    top: 194px;
+}
+.heartbutton button{
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color:rgb(231, 231, 231) ;
+    
+}
+#imgheart{
+    position: absolute;
+    height: 20px;
+    width: 20px; 
+    bottom: 5px;
+    right: 5px;
+    top: 6px;
+}
+
+.Browselook .BrowsecontentImg  article{
+    position: relative;
+    border-radius: 5px;
+    margin: 5px;
+    /* box-shadow: 0px 0px 0px 3px rgba(19, 18, 18, 0.3); */
+}
+
+.stylisttbutton button{
+    /* position: absolute; */
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: aliceblue;
+    border-color:aliceblue ;
+}
+.stylisttbutton{
+    position: absolute;
+    left: 110px;
+    top: 194px;
+}
+/* .Browselook #heart{
+    position: absolute;
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+} */
+
+
+/* .BrowsecontentImg{
+    background-color: rgb(230, 222, 222);
+} */
+
+.Browselook .contentImg img{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.Browselook .contentImg button{
+    position: absolute;
+    padding-top: 280px;
+    margin: 25px;
+    color: aliceblue;
+}
+.Browselook #heart{
+    position: absolute;
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+/******  browse look  ********/
+
+
+
+/******  delete modal  ********/
+
+.modal-footer section
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/**************/
+
+
+/* start of login styling*/
+/* .login img
+{
+    width: 370px;
+    height: 212px;
+}
+
+.login .wraper 
+{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.login main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+.login form
+{
+    margin-top: 50px;
+    width: 70%;
+} */
+
+.actions
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* end of login styling*/
+
+
+
+/* start of stylistcreate styling*/
+
+.stylistCreate .filterSort{                         /*filter sort button*/ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color:rgb(245, 245, 245);      */
+} 
+
+.stylistCreate .objects
+{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.stylistCreate .objects div{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.allobjects{                                  /* look images section and background*/
+    display: flex;
+    height: 100%;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 69px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.allobjects{                                  /* images container*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.allobjects article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/* end of stylistcreate styling*/
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+header {                                /* for all 'a' tags to be next to each other */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%; 
+    height: 69px;
+    background-color: #C4C4C4;
+    margin: 0px auto;
+}
+
+#logo {
+    width: 104px;
+    height: 49px;
+    background-image: url("../images/logo.png");
+}
+
+#profile {
+    position: absolute;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    background-image: url("../images/dana.png");
+}
+
+#menu {
+    position: absolute;
+    left: 20px;
+    width: 36px;
+    height: 36px;
+    background-image: url("../images/menu.png");
+}
+
+.btn.focus, .btn:focus{
+    box-shadow: none;
+}
+
+
+/*****************  create  look  *********************/
+
+.content section:nth-last-of-type(1){   
+    margin-top: 20px;                          
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adaptive {
+    display: flex;
+    justify-content: space-around;
+}
+
+.note {
+    margin-left: 15px;
+}
+
+.imageBorder {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.createlook .slider{
+    margin-top: 30px;
+}
+
+#description{
+    border: none;
+}
+
+
+form section:nth-child(4){        /* description container*/
+    margin-left: 15px;
+}
+
+form section:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+
+form section:nth-child(5) button{
+    margin: 20px;
+    position: relative;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    font-weight: 900;
+}
+
+footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 69px;
+    background: #C4C4C4;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer nav li{
+    /* margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px; */
+    margin: 25px;
+    width:32px;
+    height:32px;
+}
+
+.footer li a {
+    width: 32px;
+    height: 32px;
+}
+
+
+.footer li:nth-child(1) a{
+    position:absolute;
+    background-image: url("../images/home.png");
+    background-repeat: no-repeat;  
+}
+
+.footer li:nth-child(4) a{
+    position:absolute;
+    background-image: url("../images/plus.png");
+    background-repeat: no-repeat;  
+}
+
+.footer li:nth-child(2) a{
+    position:absolute;
+    background-image: url("../images/medal.png") ;
+    background-repeat: no-repeat;  
+}
+
+.footer li:nth-child(3) a{
+    position:absolute;
+    background-image: url("../images/camera.png");
+    background-repeat: no-repeat;  
+}
+
+.footer li:nth-child(5) a{
+    position:absolute;
+    background-image: url("../images/user.png");
+    background-repeat: no-repeat;  
+}
+
+
+.btn.btn-outline-secondary:hover{
+    background-color: #6c757d;
+}
+
+/*****************  camera page *********************/
+.camerarticle{
+    position: relative;
+    width: 410px;
+    height: 820px;
+    border: 1px solid black;
+    border-radius: 5px;
+    left: 2px;
+    top:2px;
+    display:flex;
+    justify-content: center;
+}
+.camerarticle a{
+    position:absolute;
+    background-image: url("../images/camerab.png");
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat; 
+    top:720px; 
+    
+}
+
+/*****************  for slider  **********************************/
+
+
+.slider {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+.slider .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 40px;
+    margin: 5px;  
+    border: 0.5px solid black ;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.right_arrow{
+    display: block;
+    background-image: url("../images/right_arrow.png");
+    width: 16px;
+    height: 16px;
+}
+
+.left_arrow {
+    display: block;
+    background-image: url("../images/left_arrow.png");
+    width: 16px;
+    height: 16px;
+}
+
+.next_arrow {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.prev_arrow {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.slider img{                     /* ony for mobile*/
+    width: 100px;
+    height: 130px;
+    margin: 15px;
+} 
+.draggable{
+    width: 100%;
+}
+
+
+
+/***************** page  my outfits **********************/
+
+.img_container button{
+    border: none;
+}
+.img_container button::after{
+    border: none;
+}
+.outfitsImages div div{
+    display: block;
+    position: relative;
+    width: 183px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+/* .overlay a{
+position: absolute;
+font-size: 19px;
+color: white;
+text-decoration: none;
+opacity: 1.0;
+} */
+
+.overlay button{
+    position: absolute;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    opacity: 1.0;
+    } 
+
+#Edit {
+    top: 10px;
+    left: 10px;
+}
+
+#delete {
+    top: 10px;
+    right: 10px;
+}
+
+#add {
+    bottom: 40px;
+    left: 35px;
+}
+
+
+.myOutfits section:nth-child(2) button{         /* top nav bar*/
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    outline: none;
+}
+
+#topnav{                /* top nav bar*/ 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.outfitsImages{                                  /* look images section and background*/
+    display: flex;
+    height: 100%;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 69px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.outfitsImages{                                  /* images container*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.outfitsImages div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.myOutfits section:nth-child(4) img{            /*images in section*/
+    display: flex;
+    position: relative;
+    width: 183px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.myOutfits .filterSort{                         /*filter sort button*/ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:rgb(245, 245, 245);     
+} 
+
+.filterSort button{
+    justify-content: center;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+} 
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active{
+    background-color: Transparent;
+    border-color: #6c757d;
+}
+
+
+/*****************  find  stylist  *********************/
+.findStylist .wraper {
+    height: 827px;
+}
+.findStylist section:nth-of-type(1) div{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px; 
+}
+
+.findStylist .filterSort {
+    background-color: transparent;
+}
+
+.findStylist section:nth-of-type(1) button{   /* filter sort buttons */
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 0px;
+
+    border:none;
+}
+
+.content{     
+    width: 100%; 
+    height: 100%;                          
+    margin-top: 60px;
+}
+
+.content div{                               
+    margin: 15px;
+}
+
+.content div section:nth-last-of-type(1){  
+    margin-top: 10px; 
+    margin-bottom: 10px;                     
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content section:nth-last-of-type(1){   /* content for Images */
+    margin-top: 20px;                          
+    display: flex;
+   
+    flex-wrap: wrap;
+}
+.contentImg article img{
+    width: 194px;
+    height: 300px; 
+}
+
+.content h3{
+    display: inline-block;
+}
+
+.content button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    outline: none;
+
+}
+
+.location {
+    display: block;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+/*****************  light  box  *********************/
+
+.modal-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.modal-content button{
+    padding: 0px;
+}
+
+.modal-content{
+    display: flex;
+}
+
+.modal-dialog{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body section{
+    position: relative;
+    margin: 8px;
+}
+
+.modal-body section button{
+    position: absolute;
+}
+
+.modal-header button{
+    position: relative;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal-footer button{
+    position: relative;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.cancel{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cancel button{
+    background-image: url("../images/close.png");
+    width: 17px;
+    height: 17px;
+    margin-top: 10px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+}
+
+
+
+/*****************  responsive  *********************/
+
+    /*****************  desktop  *********************/
+@media (min-width: 1300px)     
+{
+    #topnav{                /* top nav bar*/ 
+        display: none;
+    }
+
+    header a:nth-of-type(1){
+        display: none;
+    }
+
+    .slider img{                    
+        width: 250px;
+        height: 322px;
+        margin: 15px;
+    } 
+    .wraper{
+        width: 1100px;
+        margin: 0px auto;
+    }
+
+    header{
+        width: 100%;
+    }
+
+
+    #logo{
+        position: absolute;
+        left: 30px;
+    }
+
+
+    footer{
+        display: none;
+    }
+
+    #navBar ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #navBar{
+        display: flex;
+        justify-content: center;
+    }
+    #navBar a{
+        color: rgb(71, 70, 70);
+        font-size: 20px;
+    }
+    #navBar #selected{
+        font-weight: bold;
+    }
+    .location{
+        display: none;
+    }
+    .navbar-nav a:hover{
+        background-color: rgba(221, 221, 221, 0.781);
+    }
+
+/*****************  find  stylist desktop *********************/
+    .findStylist .filterSort {
+        background-color: transparent;
+        margin-top: 5px;
+    }
+
+    .draggable{
+        width: 90%;
+    }
+    .content{
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .contentImg{
+        justify-content: space-evenly;
+    }
+    .findStylist .filterSort button {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .content section article img{
+        margin-bottom: 10px;
+        width: 260px;
+        height: 355px; 
+    }
+    .content div{
+        margin-top: 30px;
+    }
+    .content h3{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 27px;
+    }
+    .content section:nth-last-of-type(1) button{  
+        font-size: 28px;
+    
+    }
+
+    /*****************  my  outfits  desktop *********************/
+    .myOutfits section:nth-child(2) {
+        display:none;
+    }
+    .myOutfits section:nth-child(2) button{
+        font-size: 20px;
+    }
+
+    .outfitsImages div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .outfitsImages div div {
+        width: 200px;
+        height: 230px;
+        margin: 8px;
+    }
+
+    .myOutfits section:nth-child(4) img {
+        display: flex;
+        position: relative;
+        width: 200px;
+        height: 230px;
+        border-radius: 10px;
+    }
+
+    /*****************  create look  desktop *********************/
+
+    .createlook .slider .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 100px;
+        margin: 5px;  
+        border: 0.5px solid black ;
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+    }
+
+
+    .createlook .note{
+        display: none;
+    } 
+
+    .createlook form {
+        margin-top: 20px;
+    }
+
+    .createlook .imageBorder img{
+        width: 97%;
+        height: 97%;
+
+    }
+
+    .imageBorder{
+        width: 550px;
+        height: 650px;
+    }
+
+    form section:nth-child(4){
+        margin-top: 30px;
+    }
+
+    form section:nth-child(4) lable{
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+    }
+
+    #description {
+        margin-top: 5px;
+        font-size: 30px;
+        font-weight: 500;
+        color: black;
+
+    }
+
+    .send{
+        font-size: 30px;
+        font-weight: 500;
+        color: black;
+    }
+
+    .right_arrow{
+        display: block;
+        background-image: url("../images/right_arrow_big.png");
+        width: 32px;
+        height: 32px;
+    }
+
+    .left_arrow{
+        display: block;
+        background-image: url("../images/left_arrow_big.png");
+        width: 32px;
+        height: 32px;
+    }
+
+    /*****************  light box desktop *********************/
+    .modal-dialog{
+        margin: 50px auto;
+    }
+}
+
+
+    /*****************  tablet *********************/
+@media (min-width: 579px) and (max-width: 1299px){    
+
+    /* html{
+        width: auto;
+    } */
+    
+    #topnav{                /* top nav bar*/ 
+        display: none;
+    }
+
+    header a:nth-of-type(1){
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+
+    .wraper{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+cre
+
+    #logo{
+        position: absolute;
+        left: 30px;
+    }
+    .navbar-nav a:hover{
+        background-color: rgba(221, 221, 221, 0.781);
+        border-radius: 5px;
+    }
+
+    footer{
+        display: none;
+    }
+
+    #navBar ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #navBar{
+        display: flex;
+        justify-content: center;
+    }
+    #navBar a{
+        color: rgb(71, 70, 70);
+        font-size: 20px;
+    }
+    #navBar #selected{
+        font-weight: bold;
+    }
+    .location{
+        display: none;
+    }
+
+    /*****************  create look tablet *********************/
+
+    .right_arrow{
+        display: block;
+        background-image: url("../images/right_arrow_big.png");
+        width: 32px;
+        height: 32px;
+    }
+
+    .left_arrow{
+        display: block;
+        background-image: url("../images/left_arrow_big.png");
+        width: 32px;
+        height: 32px;
+    }
+    .createlook .slider .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 70px;
+        margin: 5px;  
+        border: 0.5px solid black ;
+        font-size: 30px;
+        color: black;
+        font-weight: 700;
+    }
+
+    .createlook .note{
+        display: none;
+    } 
+
+    .createlook form {
+        margin-top: 20px;
+    }
+
+    .imageBorder{
+        width: 450px;
+        height: 550px;
+    }
+
+    .createlook .imageBorder img{
+        width: 97%;
+        height: 97%;
+
+    }
+
+    form section:nth-child(4){
+        margin-top: 30px;
+    }
+
+    form section:nth-child(4)lable {
+        font-size: 30px;
+        font-weight: 600;
+        color: black;
+    }
+
+    #description {
+        margin-top: 5px;
+        font-size: 30px;
+        font-weight: 500;
+        color: black;
+
+    }
+    .send{
+        font-size: 30px;
+        font-weight: 500;
+        color: black;
+    }
+
+
+    /*****************  light box tablet *********************/
+
+    .modal-dialog{
+        margin: 50px auto;
+    }
+    
+
+    /*****************  find  stylist tablet *********************/
+
+    .slider img{                    
+        width: 150px;
+        height: 230px;
+        margin: 15px;
+    } 
+    .findStylist .filterSort {
+        background-color: transparent;
+        margin-top: 5px;
+    }
+    .draggable{
+        width: 90%;
+    }
+    .content{
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+
+    .findStylist .filterSort button {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .contentImg{
+        justify-content: space-evenly;
+    }
+    
+    .contentImg img{
+        width: 230px;
+        height: 325px; 
+    }
+    .content div{
+        margin-top: 30px;
+    }
+    .content h3{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content section:nth-last-of-type(1) button{  
+        font-size: 28px;
+    
+    }
+
+
+    /*****************  my  outfits tablet *********************/
+    .myOutfits section:nth-child(2) {          /*navburher instead of regular navbar*/
+        display:none;
+    }
+    
+
+    .myOutfits section:nth-child(4) div{         /* images container*/
+        justify-content: center;
+    }
+}
+
+
+
+   /*****************  mobile *********************/ 
+@media (max-width: 578px){     
+    
+    #logout{
+        display: none;
+    }
+
+   #navBar{                                 /*footer instead of navbar*/
+    display: none;
+   }
+   
+   .wraper{
+       /* display: flex;
+       justify-content: center; */
+        width: auto;
+        margin: 0px auto;
+    }
+
+   .draggable{
+        width: 100%;
+    }
+
+
+    /* .overlay {
+        display: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: black;
+        opacity: 0.7;
+    } */
+
+    footer .boldicon{
+        opacity: 30%;
+     }
+
+
+
+     
+    
+    /*****************  my  outfits mobile *********************/
+    .outfitsImages{                          /* look images section and background*/
+        justify-content: center;
+    }
+    .myOutfits section:nth-child(4) div{     /* images container*/
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    /*****************  find  stylist mobile  *********************/
+    .content{                               /*full page stylist information*/
+        width: 100%;
+        margin: 0px;
+    }
+    .contentImg{                            /* two images in content */  
+        justify-content: center;
+        
+    }
+    .onlyTabletDesktop{
+        display:none;
+    }
+
+
+ /*****************  register  *********************/
+    /* .wraper{
+        width: 100%;
+    } */
+    .Register form{
+        border: white;
+    }
+    /* .Register input{
+        width: 340px;
+    } */
+    /* .Register img{
+        width: 200px;
+        height: 100px;
+    } */
+    #biglogo{
+        width: 200px;
+        height: 100px;
+    }
+} 
+
+ 
