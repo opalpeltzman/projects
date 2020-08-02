@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Dancing+Script:wght@600&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Dancing+Script:wght@558;600&family=Open+Sans+Condensed:wght@300;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'projects/style.css' %}">
+</head>
+<body>
+    <!-- <div id="wrapper"> -->
+    <header>
+        <section class="headline">
+        <h1>Opal Peltzman</h1>
+        <a id="logo" href="{% url 'home' %}"></a>
+        <a href="{% static 'projects/OpalPeltzmanCV.pdf' %}" download="OpalPeltzmanCV">
+        <button id="cv" type="button" value="download" class="btn btn-outline-secondary" >My CV</button>
+        </a >
+        </section>  
+        <nav class="headerNav">
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'Myprojects' %}">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="wraper">
+        <section class="content">
+            <img src="{% static 'projects/images/myProfile.png' %}" alt="myProfile">
+            <section class="innerContent">
+            <h3>All the info...</h3>
+            <article class="info">
+               Second year Software Engineering student
+               at “Shenkar College of Engineering and Design”.<br>
+               First year grade - 91.
+               <br>
+               Languages skills : C, C++, Assembly, JavaScript, HTML5<br>
+               I have a passion for sewing and design, and already made some
+               pices of my own that you<br> can see at the 'About' link.<br>
+               I love to sing and play guitar, and mainly hang out with my friends<br>
+               and travel.
+                <a href="OpalPeltzmanCV.pdf" download="OpalPeltzmanCV">Learn more (CV)</a>
+            </section>
+            </article>
+        </section>
+        
+        <section id="contact">
+            <span>Send me you'r message :</span>
+            <form class="form-inline" role="form" name="myForm" action="{% url 'sendMessage' %}" method="get">
+                <!-- name -->
+                <div class="form-group">
+                  <label for="name"></label>
+                  <input type="text" name="fullName" class="form-control" id="name" placeholder="FullName">
+                </div>
+                <!-- mail -->
+                <div class="form-group">
+                  <label for="mail"></label>
+                  <input type="email" name="mail" class="form-control" id="mail" placeholder='Email'>
+                </div>
+                <!-- text -->
+                <div class="form-group">
+                    <label for="message"></label>
+                    <input type="text" name="message" class="form-control" id="text" placeholder="Type you'r message...">
+                  </div>
+                <!-- submit -->
+                <button id="submitButten" type="submit" value="submit" class="btn btn-outline-secondary">Contact</button>
+              </form>
+        </section>
+    </main>
+    <!-- </div> -->
+    <footer>
+        <ul>
+            <li><a href="https://github.com/opalpeltzman/opalpeltzman-web2020" id="github"></a></li>
+            <li><a href="https://www.instagram.com/opalpeltzman/" id="instegram"></a></li>
+            <li><a href="https://www.linkedin.com/in/opal-peltzman-03303b1a8/" id="linkedin"></a></li>
+        </ul>
+        <span> © 2020 By Opal Peltzman</span>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

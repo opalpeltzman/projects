@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+body, nav, main, div, header, footer, article, section, aside, a {
+    display: block;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    width: 100%;
+    margin: 0px auto;
+}
+.headline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    border-bottom: black 1px solid;
+}
+.headline h1{
+    display: flex;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 15px;
+}
+.headline button{
+    display: flex;
+    position: relative;
+    /* left: 1000px; */
+    left: 68%;
+}
+.headerNav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-left: 180px;
+}
+.headerNav li{
+    display: flex;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+a:active{
+    font-weight: bold;
+}
+
+/* home page */
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 1200px; 
+    height: 500px;
+    margin: 0px auto;
+}
+.innerContent{
+    display: flex;
+    margin-left: 20px;
+}
+.innerContent h3{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.info{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 18px;
+    margin-top: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.innerContent a{
+    color: whitesmoke;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+/* projects page */
+
+/* all projects */
+
+
+.article {
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.article h3{
+    margin-bottom: 30px;
+    font-size: 23px;
+    margin-top: 40px;
+    margin-left: 40px;
+    /* font-family: cursive; */
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 500px; */
+    justify-content: space-evenly;
+    background-color: black;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    width: 100%;
+    height: 140px;
+    margin-top: 80px;
+    /* margin-left: 200px; */
+    /* background-color: rgb(226, 216, 216); */
+}
+#contact span{
+    margin-left: 10px;
+}
+
+
+.article1{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 420px;
+}
+.article1 img{
+    /* border: rgba(0, 0, 0, 0.733) 1px solid; */
+}
+.article1 article{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: center; */
+    width: 351px;
+    height: 120px;
+    /* color: white; */
+    background-color: rgb(255, 255, 255);
+}
+.article1 h2{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.article1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin-left: 10px;
+}
+
+/* personal projects */
+.article2{
+    margin-left: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 420px;
+}
+.article2 article{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: center; */
+    width: 300px;
+    height: 120px;
+    /* color: white; */
+    background-color: rgb(255, 255, 255);
+}
+.article2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.article2 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin-left: 10px;
+}
+
+
+
+form{
+    position: absolute;
+    width: 600px;
+    height: 150px;
+}
+.form-group{
+    margin-left: 10px;
+}
+form button{
+    margin-left: 10px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 48px;
+}
+
+footer ul{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+    height: 50px;
+    margin-top: 20px;
+}
+#github{
+    display: block;
+    background: url(images/github-image.png) no-repeat 10px 5px;
+    width: 60px;
+    height: 40px;
+}
+#instegram{
+    display: block;
+    background: url(images/instagram-sketched.png) no-repeat 10px 5px;
+    width: 60px;
+    height: 40px;
+}
+#linkedin{
+    display: block;
+    background: url(images/linkedin.png) no-repeat 10px 5px;
+    width: 60px;
+    height: 40px;
+}   
+footer span{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    display: block;
+    background: url(images/Annotation\ 2020-06-22\ 171751.png) no-repeat 10px 5px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 300px;
+    /* left: 60%; */
+}
+.mesg{
+    width: 1050px;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+.mesg h1{
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    position: relative;
+    margin-top: 70px;
+}
