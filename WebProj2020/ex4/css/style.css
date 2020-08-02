@@ -1,0 +1,154 @@
+* {margin:0; padding:0;}
+
+header, main, footer, nav, section, div, aside{
+    display: block;
+}
+
+body{
+    position: relative;
+    padding-top: 0px;
+    background-color: #eff3f8;
+    font-weight: bold;
+}
+
+
+/*svg*/
+section.svg{
+    position: relative;
+}
+
+.wrap{
+    width: 400px;
+    margin-left: 150px;
+}
+.oneBackground{
+    margin-left: auto;
+    padding-top: 5px;
+    animation-name: onecarector;
+    padding-left: 210px;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+   
+}
+
+@keyframes onecarector{
+    from{padding-left: 210px;}
+    to { padding-left: 500px; }
+}
+
+.flag{
+    padding-top: 12px;
+    padding-left: 35px;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+}
+
+    /*formWrapper*/
+.wrapper{
+    width: 800px;
+    margin: 0px 550px;
+}
+
+    /*rangeSelection*/
+#hamotzim{
+    color: rgb(92, 89, 89);
+    position: relative;
+}
+#bb{
+    color: rgb(92, 89, 89);
+    position: absolute;
+    padding-left: 662px;
+}
+
+    /*headlines*/
+.form-group{
+    position: relative;
+}
+.custom-range{
+    position: relative;
+}    
+.control-label{
+    position: relative;
+}
+span{
+    position: relative;
+}
+.interest{
+    padding-left: 563px;
+}
+.range{
+    padding-left: 620px;
+}
+.address{
+    padding-left: 582px;
+}
+.number{
+    padding-left: 380px;
+}
+.phone{
+    padding-left: 290px;
+}
+.website{
+    padding-left: 340px;
+}
+.email{
+    padding-left: 120px;
+}
+.password{
+    padding-left: 543px;
+}
+.name{
+    padding-left: 568px;
+}
+.radioTittle{
+    padding-left: 592px;
+}
+.chooseTittle{
+    padding-left: 551px;
+}
+.choose{
+    position: relative;
+    padding-left: 460px;
+}
+
+    /*radioButtons*/
+#radiobuttons{
+    padding-left: 370px;
+}
+#secondbutton{
+    padding-left: 4px;
+}
+
+
+    /*selectButtons*/
+#iterestsRight{
+    padding-left: 303px;
+}   
+#iterestsRight .checkbox{
+    position: relative;
+    padding-left: 280px;
+}
+.oneRight{
+    padding-left: 35px;
+}
+.twoRight{
+    padding-left: 35px;
+}
+.threeRight{
+    padding-left: 35px;
+}
+.fourRight{
+    padding-left: 54px;
+}
+.fiveRight{
+    padding-left: 15px;
+}
+.sixRight{
+    padding-left: 6px;
+}
+*{
+    font-family: 'Heebo', sans-serif;
+}
