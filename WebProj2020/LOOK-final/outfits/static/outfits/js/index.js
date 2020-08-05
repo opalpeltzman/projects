@@ -57,3 +57,6 @@ function editlook(){
         else    
             overlays[id - 1].style.display = "none"
     }
+
+
+    
