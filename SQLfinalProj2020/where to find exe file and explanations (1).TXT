@@ -1,0 +1,10 @@
+in order to get to the .exe file please navigate to:
+mysql-with-cpp => x64 => Debug
+
+inside the debug file you should find the .exe file.
+the database schemes are attached with the name finalDB.sql
+in order to run the program in you own computer please follow these steps:
+1.	Import the .sql into you own local workbench.
+2.	Connect the application to your local instance by providing your db credentials at the top of header file named “database-detail”
+3.	If you do not have c++ connector to mysql, open integrated terminal and use $ make install
+4.	Run the program and enjoy yout second hand book DB 
